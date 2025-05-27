@@ -1,76 +1,30 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфоліо | Дмитро Миронюк </title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background: #4CAF50;
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        section {
-            padding: 2rem;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            color: #4CAF50;
-        }
-        .project {
-            margin-bottom: 1.5rem;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Привіт! Я Дмитро </h1>
-        <p>Frontend-розробник | HTML, CSS, JavaScript</p>
-    </header>
+# Портфоліо Дмитро Миронюк
 
-    <section>
-        <h2>Про мене</h2>
-        <p>Я займаюся веб-розробкою, створюю адаптивні сайти та інтерактивні додатки. Маю досвід з HTML5,.</p>
-    </section>
+Це мій особистий сайт-портфоліо, створений з використанням **HTML**. Тут представлена моя коротка інформація, навички та контакти.
 
-    <section>
-        <h2>Навички</h2>
-        <ul>
-            <li>HTML5, CSS3, Flexbox, Grid</li>
-            <li>Git, GitHub</li>
-        </ul>
-    </section>
+ **Переглянути сайт онлайн**: [https://dimamironyk.github.io/porfolio/]
+ 
+ **Код на GitHub**: [https://github.com/DimaMironyk/]
 
-    <section>
-        <h2>Зв'язок</h2>
-        <p>Email: <a href="mironyk575@gmail.com">youremail@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    </section>
+ **Загальний репозиторій викладача**: [https://github.com/PorokhovnichenkoIryna/learning_git]
 
-    <footer>
-        <p>&copy; 2025 Дмитро. Усі права захищено.</p>
-    </footer>
-</body>
-</html>
+---
+
+## Як працює сайт
+
+-  Контактна інформація (email, телефон, GitHub)
+-  Вся інформація знаходиться в одному HTML-файлі (`index.html`)
+
+---
+
+## Як створити подібний сайт самостійно
+
+### Крок 1. Створи GitHub репозиторій
+- Назва, наприклад: `portfolio`
+- Додай файл `index.html` з твоїм кодом
+
+### Крок 2. Завантаж сайт через **GitHub Pages**
+1. Перейди у вкладку `Settings` > `Pages`
+2. Обери `Branch: main`, папку: `/ (root)`
+3. Натисни **Save**
+4. Отримаєш посилання на сайт
